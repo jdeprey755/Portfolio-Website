@@ -65,20 +65,23 @@ a {
     border-bottom: 2px solid rgb(210, 137, 0);
 }
 
-#nebula {
+.about-me-container {
+    padding-top: 15em;
+    background-image: url("../img/space.jpg");
+    background-repeat: no-repeat;
+    height: 75rem;
+    min-height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#space {
     position: absolute;
     top: 900px;
     height: 1500px;
-    width: 100%;
     opacity: 0.7;
     z-index: -1;
-}
-
-.about-me-container {
-    margin-top: 8em;
-    /* background-image: url("../img/nebula.jpg"); */
-    /* background-repeat: no-repeat; */
-    height: 60em;
 }
 
 .about-me-title {
